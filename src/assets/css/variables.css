@@ -1,0 +1,21 @@
+:root {
+  --primary: #2c6aaf;
+  --primary_light: #3989e3;
+  --secondary: #123451;
+  --secondary_light: #1e588a;
+
+  --error: #EB5A59; /* #FF5252 */
+  --info: #2196F3;
+  --success: #4CAF50;
+  --warning: #FFC107;
+
+  --desabilitar: #C6C6C6;
+
+  --blanco2: #f4f4f4;
+
+  --icon_enviado: rgba(0,128,0,1);
+  --icon_recibido: rgba(255,223,0,1);
+
+  --bg_enviado:rgba(0,128,0, 0.1);
+  --bg_recibido:rgba(255, 128, 0, 0.1);
+}

@@ -1,0 +1,55 @@
+@import './variables.css';
+
+main {
+  background-color: var(--primary);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h1,h2,h3{ text-align: center;}
+.w-90{width: 90%;}
+.w-80{width: 80%;}
+.w-74{width: 74%;}
+.w-70{width: 70%;}
+.w-49{width: 49%;}
+.w-45{width: 45%;}
+.w-24{width: 24%;}
+.w-20{width: 20%;}
+
+.h-90{height: 90%;}
+.h-85{height: 85%;}
+.h-80{height: 80%;}
+.h-20{height: 20%;}
+.h-10{height: 10%;}
+
+/* quita el color por defecto del autollenado automatico */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  -webkit-background-clip: text;
+}
+
+/* Quita los botones de aumentar o disminuir por defecto en el input type number */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.deshabilitar{
+  pointer-events: none;
+  color: var(--desabilitar)
+}
+
+.bg_enviado{ background-color: var(--bg_enviado)}
+.bg_recibido{ background-color: var(--bg_recibido)}
+.icon_enviado{color: var(--icon_enviado)}
+.borde_icon_enviado{border: 1px solid var(--icon_enviado);}
+.icon_recibido{color: var(--icon_recibido)}
+.borde_icon_recibido{border: 1px solid var(--icon_recibido);}
+
+.link{ color: #89CFF0; }
